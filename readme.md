@@ -6,7 +6,10 @@ Original idea found [here](https://dev.to/kayis/lazy-loaded-react-components-wit
 ## Install
 
 ```
-yarn install react-lazify --save
+yarn add react-lazify --save
+```
+or
+```
 npm install react-lazify --save
 ```
 
