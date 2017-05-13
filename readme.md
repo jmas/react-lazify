@@ -3,6 +3,13 @@
 Lazy load for react components.
 Original idea found [here](https://dev.to/kayis/lazy-loaded-react-components-with-webpack-2).
 
+## Install
+
+```
+yarn install react-lazify --save
+npm install react-lazify --save
+```
+
 ## How to use
 
 Example 1:
