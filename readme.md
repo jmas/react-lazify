@@ -14,9 +14,12 @@ npm install react-lazify --save
 
 Example 1:
 ```jsx
+import lazify from 'react-lazify';
+
 const loadComponent = (name) => lazify(() => System.import(`pages/${name}.jsx`));
 
-// ... in render
+// ...
+// render()
 
 <Router>
     <div>
@@ -31,9 +34,12 @@ const loadComponent = (name) => lazify(() => System.import(`pages/${name}.jsx`))
  
 Example 2:
 ```jsx
+import lazify from 'react-lazify';
+
 const MyComponent = lazify(() => System.import('components/MyComponent.jsx'), <Spinner />);
 
 // ...
+// render()
 
 <MyComponent some={ 'prop' } that={ 'will' } be={ 'passed' } to={ 'loaded' } component />
 ```

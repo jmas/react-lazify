@@ -7,7 +7,7 @@ export default (load, prompt=null) => {
             if (prompt) {
                 return prompt;
             }
-            return React.createElement('span', 'Loading&hellip');
+            return React.createElement('span', {}, 'Loading...');
         }
 
         constructor () {

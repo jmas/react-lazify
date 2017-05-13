@@ -1,10 +1,18 @@
 {
-  "name": "react-layzify",
-  "version": "0.1.0",
+  "name": "react-lazify",
+  "version": "0.1.5",
   "description": "Load components layzy with React, Webpack.",
-  "main": "build/dest/lazify.min.js",
+  "main": "build/dist/lazify.min.js",
   "author": "Alex Maslakov <jmas.ukraine@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmas/react-lazify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jmas/react-lazify/issues"
+  },
+  "homepage": "https://github.com/jmas/react-lazify#readme",
   "dependencies": {
     "prop-types": "^15.5.10",
     "react": "^15.5.4"
