@@ -35,7 +35,7 @@ const MyComponent = lazify(() => System.import('components/MyComponent.jsx'), <S
 
 // ...
 
-<MyComponent />
+<MyComponent some={ 'prop' } that={ 'will' } be={ 'passed' } to={ 'loaded' } component />
 ```
 
 Here we pass second optional argument to function `lazify(load, [prompt])`, that will be display
