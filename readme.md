@@ -13,7 +13,7 @@ npm install react-lazify --save
 ## How to use
 
 Example 1:
-```
+```jsx
 const loadComponent = (name) => lazify(() => System.import(`pages/${name}.jsx`));
 
 // ... in render
@@ -30,7 +30,7 @@ const loadComponent = (name) => lazify(() => System.import(`pages/${name}.jsx`))
  a chunks that had dynamic names.
  
 Example 2:
-```
+```jsx
 const MyComponent = lazify(() => System.import('components/MyComponent.jsx'), <Spinner />);
 
 // ...
