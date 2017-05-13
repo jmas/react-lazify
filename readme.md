@@ -20,14 +20,6 @@ const loadComponent = (name) => lazify(() => System.import(`pages/${name}.jsx`))
 
 <Router>
     <div>
-        <AppBar
-            title="Title"
-            iconClassNameRight="muidocs-icon-navigation-expand-more"
-        />
-        <Drawer open={ true } docked={ true }>
-            <MenuItem>Menu Item</MenuItem>
-            <MenuItem>Menu Item 2</MenuItem>
-        </Drawer>
         <Route exact path="/" component={ loadComponent('Home') }/>
         <Route path="/settings" component={ loadComponent('Settings') }/>
     </div>
