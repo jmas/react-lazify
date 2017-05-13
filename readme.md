@@ -38,5 +38,5 @@ const MyComponent = lazify(() => System.import('components/MyComponent.jsx'), <S
 <MyComponent />
 ```
 
-Here we pass second optional argument to function `lazify(load, [prompt])`, that will display
+Here we pass second optional argument to function `lazify(load, [prompt])`, that will be display
 during component loading.
