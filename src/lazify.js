@@ -1,19 +1,11 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-export default load => {
+export default (load, prompt=null) => {
     return class LazyComponent extends Component {
-        static propTypes = {
-            loadingPrompt: PropTypes.node
-        };
-
-        static defaultProps = {
-            loadingPrompt: null
-        };
-
         get loadingPrompt () {
-            if (this.props.loadingPrompt) {
-                return this.props.loadingPrompt;
+            if (prompt) {
+                return prompt;
             }
             return React.createElement('span', 'Loading&hellip');
         }
