@@ -1,6 +1,6 @@
 {
   "name": "react-lazify",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Load components layzy with React, Webpack.",
   "main": "build/dist/lazify.min.js",
   "author": "Alex Maslakov <jmas.ukraine@gmail.com>",
